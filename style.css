@@ -1,0 +1,54 @@
+*{
+	font-family: sans-serif;
+}
+form{
+	width: 500px;
+	padding: 20px;
+	box-shadow: 0 0 5px 0 #3d3d3d;
+	border-radius: 3px;
+}
+.enterData{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+.enterData:focus{
+	border: 3px solid #555;
+}
+.filterLength,
+.filterSubstr{
+	width: 247px;
+	box-sizing: border-box;
+	background-color: #e7e7e7; 
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	transition: 0.3s ease all;
+	cursor: pointer;
+	border: 2px solid #999;
+}
+.filterLength:hover,
+.filterSubstr:hover {
+	background-color: #5d5d5d;
+	color: white;
+}
+label {
+	display: block;
+	padding: 10px 0 15px 0;
+}
+.register{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
